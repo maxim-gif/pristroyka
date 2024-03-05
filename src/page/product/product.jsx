@@ -11,7 +11,7 @@ export const Product = () => {
       <Header />
       <S.ProductTittle>{id}</S.ProductTittle>
       <S.MainInfo>
-        <S.MainPhoto></S.MainPhoto>
+        <S.MainPhoto src="/pl.jpg"></S.MainPhoto>
         <S.ColorBox>
             <S.Color></S.Color>
             <S.Color></S.Color>
