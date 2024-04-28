@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pristroyka/static/css/main.dc4d6ff2.css",
+    "main.js": "/pristroyka/static/js/main.622416fd.js",
+    "index.html": "/pristroyka/index.html",
+    "main.dc4d6ff2.css.map": "/pristroyka/static/css/main.dc4d6ff2.css.map",
+    "main.622416fd.js.map": "/pristroyka/static/js/main.622416fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.622416fd.js"
+  ]
+}
