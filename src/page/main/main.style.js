@@ -1,28 +1,16 @@
 import styled from "styled-components";
 
-export const Tittle = styled.div`
-  color: black;
-  font-size: 70px;
-`;
 
-export const Phone = styled.div`
-  color: black;
-  font-size: 40px;
-`;
-
-export const Header = styled.header`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100px;
-  padding: 0 50px 0 50px;
-`;
 
 export const Main = styled.div`
   display: flex;
   width: 100%;
   height: 400px;
-  border: 2px solid black;
+  gap:20px;
+  padding: 0 30px;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 export const Photo = styled.img`
@@ -30,6 +18,9 @@ export const Photo = styled.img`
   height: 800px;
   padding: 0 30px 0 30px;
   margin: 30px 0 50px 0;
+  @media (max-width: 500px) {
+    height: 200px;
+  }
 `;
 
 export const Roof = styled.div`
@@ -48,6 +39,16 @@ export const Roof = styled.div`
   & > span {
     display: block;
     font-size: 30px;
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+    height: 300px;
+    & > h2 {
+      font-size: 30px;
+    }
+    & > span {
+      font-size: 15px;
+    }
   }
 `;
 export const Facade = styled(Roof)``;
