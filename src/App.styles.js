@@ -2,6 +2,9 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 
+:root {
+  max-height: 100vh;
+}
 
 * {
   font-family: 'Roboto', sans-serif;

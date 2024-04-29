@@ -24,7 +24,6 @@ export const Items = styled.div`
   justify-content: center;
   color: black;
   gap: 30px;
-  font-size: 70px;
   @media (max-width: 500px) {
     grid-template-columns: repeat(2, 100px);
     gap: 20px;
@@ -46,7 +45,6 @@ z-index: 10;
 top: 200px;
 font-size: 30px;
 color: black;
-width: 600px;
 text-align:center;
 @media (max-width: 500px) {
   font-size: 15px;
