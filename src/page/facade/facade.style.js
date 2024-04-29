@@ -38,7 +38,6 @@ z-index: 10;
 top: 200px;
 font-size: 30px;
 color: black;
-width: 600px;
 text-align:center;
 @media (max-width: 500px) {
   font-size: 15px;
