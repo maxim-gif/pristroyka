@@ -12,7 +12,7 @@ export const Tittle = styled.div`
 
 export const Items = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 250px);
+  grid-template-columns: repeat(6, 250px);
   justify-content: center;
   color: black;
   gap: 30px;

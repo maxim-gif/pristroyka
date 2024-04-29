@@ -52,6 +52,14 @@ export const Roof = () => {
           <S.ItemImage src="/pl.jpg"></S.ItemImage>
           <S.ItemTittle>Надпись</S.ItemTittle>
         </S.Item>
+        <S.Item>
+          <S.ItemImage src="/pl.jpg"></S.ItemImage>
+          <S.ItemTittle>Надпись</S.ItemTittle>
+        </S.Item>
+        <S.Item>
+          <S.ItemImage src="/pl.jpg"></S.ItemImage>
+          <S.ItemTittle>Надпись</S.ItemTittle>
+        </S.Item>
       </S.Items>
     </S.Container>
   );
